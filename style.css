@@ -12,3 +12,4 @@ th, td { border: 1px solid #555; padding: 8px; }
 .cover { display: block; max-width: 100%; width: 500px; height: auto; margin: 0 auto 20px; border-radius: 8px; }
 body.light { background: #f4f4f4; color: #222; }
 body.light nav { background: #ddd; }
+ol { list-style-position: inside; }
