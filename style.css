@@ -9,7 +9,6 @@ th, td { border: 1px solid #555; padding: 8px; }
 .left { float: left; margin: 0 16px 8px 0; }
 .right { float: right; margin: 0 0 8px 16px; width: 300px; max-width: 100%; height: auto; border-radius: 8px; }
 .none { float: none; display: block; margin: 12px 0; width: 400px; max-width: 100%; height: auto; border-radius: 8px; }
-h2 { clear: both; }
 .gallery { display: flex; flex-direction: column; gap: 24px; }
 .gallery img { width: 100%; height: auto; display: block; border-radius: 8px; }
 .cover { display: block; max-width: 100%; width: 500px; height: auto; margin: 0 auto 20px; border-radius: 8px; }
