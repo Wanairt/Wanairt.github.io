@@ -1,0 +1,13 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #14110f; color: #eee; }
+nav { background: #000; padding: 12px 20px; display: flex; gap: 16px; align-items: center; }
+nav a { color: #e0b252; text-decoration: none; }
+main { max-width: 900px; margin: 0 auto; padding: 20px; }
+h1, h2 { color: #e0b252; }
+a { color: #e0b252; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #555; padding: 8px; }
+.left { float: left; margin: 0 16px 8px 0; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.gallery img { width: 100%; }
+body.light { background: #f4f4f4; color: #222; }
+body.light nav { background: #ddd; }
