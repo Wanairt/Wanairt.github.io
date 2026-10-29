@@ -7,7 +7,8 @@ a { color: #e0b252; }
 table { border-collapse: collapse; width: 100%; }
 th, td { border: 1px solid #555; padding: 8px; }
 .left { float: left; margin: 0 16px 8px 0; }
-.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
-.gallery img { width: 100%; }
+.gallery { display: flex; flex-direction: column; gap: 24px; }
+.gallery img { width: 100%; height: auto; display: block; border-radius: 8px; }
+.cover { display: block; max-width: 100%; width: 500px; height: auto; margin: 0 auto 20px; border-radius: 8px; }
 body.light { background: #f4f4f4; color: #222; }
 body.light nav { background: #ddd; }
